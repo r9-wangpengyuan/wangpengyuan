@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+@font-face{
+   font-family: my;
+
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.page1{
+    position: relative;
+}
+.page1 .top{
+    width: 6rem;
+    height: 2rem;
+    background: url("../images/pic1.png");
+    background-size:6rem 2rem ;
+    margin:0 1rem 0 0;
+}
+.page1 .pic1{
+    width: 2.0rem;
+    height: 2.0rem;
+   margin: 0.6rem 2rem 0 0;
+    position: relative;
+}
+.page1 .pic1 img{
+    width: 3rem;
+    height: 3rem;
+    display: block;
+}
+.page1 .pic1 .tu{
+    width: 1.49rem;
+    height: 1.72rem;
+    position: absolute;
+    top: 0.8rem;
+    left: 1rem;
+}
+.page1 .name span{
+    font-size: 0.18rem;
+    text-align: center;
+    display: block;
+}
+.page1 .pic2{
+    width: 3rem;
+    height: 2rem;
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0.2rem;
+}
+/*second*/
+.page2{
+    position: relative;
+}
+.page2 .pic3{
+    width: 3.4rem;
+    height: 3.03rem;
+    display: block;
+    margin: 0 auto;
+}
+.page2 .pic4{
+    width: 1.72rem;
+    height: 1.72rem;
+    display: block;
+    position: absolute;
+    top: 0.8rem;
+    right: 0;
+}
+.page2 .xinxi h2{
+    font-size: 0.30rem;
+    color: rgba(188, 89, 15, 0.88);
+    text-align: center;
+    margin-top: -2rem;
+}
+.page2 .photo{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0.3rem auto 0 auto;
+}
+.page2 .xinxi p{
+    font-size: 0.16rem;
+    color:rgba(188, 89, 15, 0.88) ;
+    line-height: 0.5rem;
+    text-align: center;
+}
+.page2 .pic5{
+    width: 1.23rem;
+    height: 1.63rem;
+    display: block;
+    position: absolute;
+    left: -0.1rem;
+    bottom: 0;
+}
+/*page3*/
+.page3{
+    position: relative;
+}
+.page3:after{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    clear: both;
+}
+.page3 .pic1{
+    width: 2.6rem;
+    height: 2.6rem;
+    background: url("../images/page3_pic2.png");
+    background-size: 2.6rem 2.6rem;
+    float: left;
+}
+
+.page3 .pic1 h2{
+    font-size: 0.24rem;
+    color: rgba(188, 89, 15, 0.88);
+    text-align: center;
+    margin-top: 1rem;
+}
+.page3 .pic1 p{
+    font-size: 0.16rem;
+    color: rgba(188, 89, 15, 0.88);
+    text-align: center;
+    margin-top: 1rem;
+
+}
+.page3 .pic2{
+    width: 1.89rem;
+    height: 1.32rem;
+    display: block;
+    position: absolute;
+    top: 0.5rem;
+    right:0;
+}
+.page3 .pic3{
+    width: 2.6rem;
+    height: 2.6rem;
+    background: url("../images/page3_pic3.png");
+    background-size: 2.6rem 2.6rem;
+    float: right;
+font-size: 0.16rem;
+    color: #136562;
+}
+.page3 .pic4{
+    width: 2.58rem;
+    height: 1.72rem;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/*page4*/
+.page4{
+    position: relative;
+}
+.page4 .icon1{
+    width: 3rem;
+    height: 1.58rem;
+    background: url("../images/icon-2.png")no-repeat;
+    background-size: 2.77rem 1.58rem;
+    position: absolute;
+    right: 0;
+    top: 0.8rem;
+}
+.page4 .icon1 h2{
+    font-size: 0.24rem;
+    color: rgba(188, 89, 15, 0.88);
+    text-align: left;
+}
+.page4 .icon1 p{
+    font-size: 0.14rem;
+    color: rgba(188, 89, 15, 0.88);
+    text-align: center;
+    line-height: 0.3rem;
+   z-index: 111;
+}
+.page4 .icon1 .pic1{
+    width: 1.42rem;
+    height: 1.65rem;
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+}
+.page4 .pic2{
+    width: 3.02rem;
+    height: 3.02rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/*page5*/
+.page5{
+    position: relative;
+    width: 2.96rem;
+    height: 4.44rem;
+    background: url("../images/page4-pic1.png")no-repeat;
+    left: 0;
+    top: 0.5rem;
+}
+.page5 h2{
+    font-size: 0.24rem;
+    color: rgba(188, 89, 15, 0.88);
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.page5 .box{
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+    position: relative;
+}
+.page5 .box1{
+    width: 2rem;
+    height: 0.5rem;
+    background: palevioletred;
+    color: white;
+    text-align: center;
+    font-size: 0.18rem;
+    margin: 0.5rem auto;
+    line-height: 0.5rem;
+}
+.page5 .box2{
+    width: 2rem;
+    height: 0.5rem;
+    background: palevioletred;
+    color: white;
+    text-align: center;
+    font-size: 0.18rem;
+    margin: 0.5rem auto;
+    line-height: 0.5rem;
+}
+.page5 .box3{
+    width: 2rem;
+    height: 0.5rem;
+    background: palevioletred;
+    line-height: 0.5rem;
+    color: white;
+    text-align: center;
+    font-size: 0.18rem;
+    margin-bottom: 0.3rem;
+}
+
+/*page6*/
+.page6 {
+    position: relative;
+}
+.page6 .pic1{
+    width: 3.08rem;
+    height: 1.56rem;
+    background: url("../images/page5-pic1.png") no-repeat;
+    background-size: 3.08rem  1.56rem;
+}
+.page6 .pic1 h2{
+    font-size: 0.24rem;
+    color: rgba(188, 89, 15, 0.88);
+    text-align: right;
+   padding-top: 0.6rem;
+}
+.page6 .pic1 p{
+    font-size: 0.18rem;
+    text-align: center;
+    color:black;
+
+}
+.page6 .pic li{
+    width: 1rem;
+    height: 1rem;
+    font-size: 0.16rem;
+}
+
+/*page7*/
+.page7{
+    position: relative;
+}
+.page7 .pic1{
+    width: 1.4rem;
+    height: 2.48rem;
+    background: url("../images/pic6.png")no-repeat;
+    background-size: 1.4rem 2.48rem;
+    position: absolute;
+    right: 0;
+    top: 0.2rem;
+}
+.page7 p{
+    font-size: 0.18rem;
+    color:black;
+
+    text-align: center;
+}
+.page7 .pic{
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.16rem;
+    margin-top: 1rem;
+}
+.page7 .pic li{
+    width: 1.5rem;
+    height: 1.5rem;
+float: left;
+}
+.page7 .pic li>img{
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+.page7 .pic2{
+    width: 1.92rem;
+    height: 1.28rem;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/*page8*/
+.page8{
+    position: relative;
+
+}
+.page8 .pic1{
+    width: 1.37rem;
+    height: 1.90rem;
+    background: url("../images/page6-pic1.png")no-repeat;
+    background-size: 1.37rem 1.90rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.page8  h2{
+    font-size: 0.24rem;
+    color: rgba(188, 89, 15, 0.88);
+    text-align: center;
+    padding-top: 0.6rem;
+}
+.page8 .pic2{
+    width: 1.48rem;
+    height: 1.71rem;
+    background: url("../images/page6-pic2.png")no-repeat;
+    background-size: 1.48rem 1.71rem;
+    position: absolute;
+   right: 0;
+    top: 0.7rem;
+}
+.page8 .btn{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: palevioletred;
+    margin: 0.2rem auto 0 auto;
+}
+.page8 .btn img{
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+}
+.page8 .btn p{
+    font-size: 0.16rem;
+    color: white;
+    text-align: center;
+    line-height: 0.35rem;
+}
+.page8 .pic3{
+    width: 1.26rem;
+    height: 1.67rem;
+    background: url("../images/page6-pic3.png")no-repeat;
+    background-size: 1.26rem 1.67rem;
+    position: absolute;
+    left: 0;
+    bottom: 0.1rem;
+}
+/**/
+
+.swiper-container .arrow{
+    width: 0.5rem;
+    height: 0.36rem;
+    background: url("../images/arrow.png");
+    background-size: 0.56rem 0.36rem;
+    position: fixed;
+    bottom: 0.1rem;
+    left: 1.3rem;
+}
+.infinite{
+    animation-iteration-count: infinite;
+}
+.rotate{animation: rotate 5s linear infinite}
+@keyframes rotate {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
