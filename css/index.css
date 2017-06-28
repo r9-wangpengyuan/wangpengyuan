@@ -385,7 +385,15 @@ float: left;
     bottom: 0.1rem;
 }
 /**/
-
+.swiper-slide music{
+    width:0.33rem;
+    height:0.33rem;
+    background:url(../images/music.png)no-repeat;
+    position:fixed;
+    right:0;
+    top:0;
+    z-index:999;
+}
 .swiper-container .arrow{
     width: 0.5rem;
     height: 0.36rem;
@@ -395,6 +403,7 @@ float: left;
     bottom: 0.1rem;
     left: 1.3rem;
 }
+
 .infinite{
     animation-iteration-count: infinite;
 }
