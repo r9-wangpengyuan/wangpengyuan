@@ -134,8 +134,9 @@
         <div class="pic3 ani" swiper-animate-effect="fadeIn"swiper-animate-duration="1s"></div>
         </div>
     </div>
+    <div class="music rotate"></div>
     <div class="arrow" ></div>
-
+<audio src="source/梦想天空分外蓝.mp3" id="audio" autoplay></audio>
 </div>
 </body>
 </html>
@@ -144,6 +145,17 @@
 <script src="swiper/swiper.min.js"></script>
 <script src="swiper/swiper.animate1.0.2.min.js"></script>
 <script>
+$(".music").tap (
+          function() {
+              $(this).toggleClass("rotate");
+              if ($("#audio").get(0).paused) {
+                  $("#audio").get(0).play();
+              }
+              else {
+                  $("#audio").get(0).pause();
+              }
+          }
+  )
 
 
     var my=new Swiper(".swiper-container",{
